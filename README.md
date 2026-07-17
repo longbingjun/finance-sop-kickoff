@@ -27,20 +27,20 @@ Skill 要放在 Cursor 能找到的固定位置。有两种用法，选一种：
 **Windows（PowerShell）：**
 
 ```powershell
-git clone https://github.com/<your-org-or-username>/finance-sop-kickoff.git "$env:USERPROFILE\.cursor\skills\finance-sop-kickoff"
+git clone https://github.com/longbingjun/finance-sop-kickoff.git "$env:USERPROFILE\.cursor\skills\finance-sop-kickoff"
 ```
 
 **macOS / Linux：**
 
 ```bash
-git clone https://github.com/<your-org-or-username>/finance-sop-kickoff.git ~/.cursor/skills/finance-sop-kickoff
+git clone https://github.com/longbingjun/finance-sop-kickoff.git ~/.cursor/skills/finance-sop-kickoff
 ```
 
 装好之后，不管你在 Cursor 里打开哪个项目文件夹，都能调用这个 skill。
 
 ### 方式B：不用 git，直接下载
 
-1. 打开本仓库 GitHub 页面，点绿色的 `Code` 按钮 → `Download ZIP`
+1. 打开 [本仓库 GitHub 页面](https://github.com/longbingjun/finance-sop-kickoff)，点绿色的 `Code` 按钮 → `Download ZIP`
 2. 解压后，把整个文件夹重命名为 `finance-sop-kickoff`
 3. 放到 `C:\Users\<你的用户名>\.cursor\skills\`（Windows）或 `~/.cursor/skills/`（Mac/Linux）目录下
 
